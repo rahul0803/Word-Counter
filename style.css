@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  background-color: #0067b0;
+  margin: auto;
+  color: whitesmoke;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#textBox {
+  width: 70%;
+  margin: auto;
+  border: 2px solid #0067b0;
+  font-size: x-large;
+}
+
+p {
+  margin: 15px auto;
+  background-color: #0067b0;
+  color: antiquewhite;
+  padding: 12px;
+  width: 1000px;
+  font-size: 25px;
+}
+
+#word,
+#char {
+  font-size: 40px;
+  font-weight: 900;
+}
